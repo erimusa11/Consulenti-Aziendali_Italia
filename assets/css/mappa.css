@@ -1,0 +1,204 @@
+#mappa img {
+	border: none;
+}
+
+#mappa {
+	width: 290px;
+	height: 330px;
+	position: relative;
+	float: left;
+}
+
+#mappa a {
+	text-decoration: none;
+	color: #000000;
+	outline: none;
+}
+
+#mappa img.regione {
+	position: absolute;
+	display: block;
+	filter: contrast(155%) brightness(95%);
+}
+
+#mappa a:hover img.regione {
+	filter: hue-rotate(90deg);
+	-moz-opacity: .60;
+	opacity: .60;
+}
+
+#mappa a:hover span,
+#mappa #info {
+	display: block;
+	width: 232px;
+	height: 273px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	border: 2px solid #CCCCCC;
+	background-color: #FFFFFF;
+	padding: 10px;
+	color: #333333;
+	font-size: 12px;
+	line-height: 18px;
+	letter-spacing: 1px;
+	text-align: justify;
+	overflow: hidden;
+	z-index: 20;
+}
+
+#combo {
+	float: left;
+	width: 180px;
+	height: 310px;
+}
+
+#aosta {
+	left: 5px;
+	top: 37px;
+	z-index: 1;
+}
+
+#piemonte {
+	left: 2px;
+	top: 27px;
+}
+
+#liguria {
+	left: 20px;
+	top: 77px;
+}
+
+#lombardia {
+	left: 41px;
+	top: 19px;
+}
+
+#trentino {
+	left: 80px;
+	top: 3px;
+	z-index: 2;
+}
+
+#veneto {
+	left: 85px;
+	top: 15px;
+}
+
+#friuli {
+	left: 120px;
+	top: 15px;
+	z-index: 3;
+}
+
+#romagna {
+	left: 55px;
+	top: 62px;
+}
+
+#toscana {
+	left: 66px;
+	top: 81px;
+}
+
+#marche {
+	left: 118px;
+	top: 96px;
+}
+
+#umbria {
+	left: 113px;
+	top: 108px;
+}
+
+#lazio {
+	left: 105px;
+	top: 132px;
+}
+
+#abruzzo {
+	left: 139px;
+	top: 128px;
+}
+
+#molise {
+	left: 160px;
+	top: 152px;
+	z-index: 4;
+}
+
+#puglia {
+	left: 182px;
+	top: 154px;
+}
+
+#campania {
+	left: 158px;
+	top: 169px;
+}
+
+#basilicata {
+	left: 194px;
+	top: 179px;
+	z-index: 5;
+}
+
+#calabria {
+	left: 205px;
+	top: 210px;
+}
+
+#sardegna {
+	left: 30px;
+	top: 175px;
+}
+
+#sicilia {
+	left: 130px;
+	top: 270px;
+}
+
+#scelta-regioni {
+	width: 180px;
+	height: 300px;
+	float: left;
+}
+
+#scelta-regioni td {
+	width: 50%;
+	height: 10%;
+	text-align: center;
+	margin: 5px;
+	background: #15b59d;
+	color: #fff;
+}
+
+.elenco-calabria,
+.elenco-marche,
+.elenco-puglia,
+.elenco-lombardia,
+.elenco-romagna,
+.elenco-piemonte,
+.elenco-sardegna,
+.elenco-campania,
+.elenco-lazio,
+.elenco-sicilia,
+.elenco-emilia,
+.elenco-toscana,
+.elenco-liguria,
+.elenco-trentino,
+.elenco-veneto,
+.elenco-friuli,
+.elenco-molise,
+.elenco-aosta,
+.elenco-basilicata,
+.elenco-abruzzo,
+.elenco-umbria {
+	margin-bottom: 10px;
+	margin-left: 7px;
+	height: 170px;
+	background: #e5e5e5;
+	padding: 5px;
+	position: relative;
+	clear: left
+}

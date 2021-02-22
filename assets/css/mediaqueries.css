@@ -1,0 +1,105 @@
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  #logo {
+    width: 250px !important;
+  }
+
+  .top-left {
+    background-color: white;
+  }
+}
+
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+  #logo {
+    height: auto !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 20% !important;
+  }
+}
+
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  #logo {
+    height: 100px !important;
+  }
+}
+
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 15% !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 15% !important;
+  }
+}
+
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 15% !important;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 30% !important;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 30% !important;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  #logo {
+    height: 100px !important;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 30%;
+    left: 40% !important;
+  }
+}

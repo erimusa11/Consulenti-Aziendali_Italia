@@ -1,0 +1,20 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 170px;
+  /*line-height: 60px;  Vertically center the text there */
+  background-color: #333333 !important;
+  background-image: url("http://www.consulentiaziendaliditalia.it/wp-content/themes/enfold/images/background-images/diagonal-thin-light.png");
+}
